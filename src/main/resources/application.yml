@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  redis:
+    host: 120.79.23.95
+    port: 6379
+    password: gmf123
+logging:
+  level:
+    root: info
+
