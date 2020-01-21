@@ -5,6 +5,11 @@ spring:
     host: 120.79.23.95
     port: 6379
     password: gmf123
+  rabbitmq:
+    host: 120.79.23.95
+    username: gmf
+    password: gmf123
+    virtual-host: /gmf
 logging:
   level:
     root: info
