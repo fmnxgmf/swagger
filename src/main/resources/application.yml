@@ -13,4 +13,19 @@ spring:
 logging:
   level:
     root: info
-
+config:
+  jwt:
+    # 加密密钥
+    secret: abcdefg1234567
+    # token有效时长
+    expire: 3600
+    # header 名称
+    header: token
+ly:
+  jwt:
+    secret: ly@Login(Auth}*^31)&yun6%f3q2 # 登录校验的密钥
+    pubKeyPath: \\rsa\\rsa.pub # 公钥地址
+    priKeyPath: \\rsa\\rsa.pri # 私钥地址
+    expire: 30 # 过期时间,单位分钟
+    cookieName: LY_TOKEN
+    ss: ss
