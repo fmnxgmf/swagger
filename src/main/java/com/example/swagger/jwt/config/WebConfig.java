@@ -25,6 +25,8 @@ public class WebConfig implements WebMvcConfigurer {
         registry.addInterceptor(tokenInterceptor)
                 .addPathPatterns("/**")
                 .excludePathPatterns("/login**")
+                .excludePathPatterns("/**Code")
+                .excludePathPatterns("/newCode")
                 .excludePathPatterns("/swagger-resources/**", "/webjars/**", "/v2/**", "/swagger-ui.html/**")
                 .excludePathPatterns("/favicon.ico");
 
